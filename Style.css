@@ -3,10 +3,10 @@ body {
 }
 
 section {
-    height: 20dvh;
-    width: 20dvh;
-    border: 1px solid black;
-    border-radius: 20px;
+    height: 17dvh;
+    width: 40dvh;
+    border: 2px solid black;
+    border-radius: 25px;
     margin: 10px;
 
 }
