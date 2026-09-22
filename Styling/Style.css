@@ -1,7 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
 
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --bg: #00120B; 
+    --textcolor: #35FF69;
+    --accent: #18DEC3; 
+}
 body {
-    background-color: rgba(62, 250, 56, 0.591);
+    background-color: var(--bg);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,38 +18,47 @@ body {
 }
 
 header {
+    color: var(--textcolor);
      font-family: "Black Ops One", system-ui;
   font-weight: 400;
   font-style: normal;
 }
 
 nav {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid var(--accent);
 }
 nav a {
-    color: black;
+    color: var(--accent);
     text-decoration: none;
     padding: 10px;
     box-shadow: 0px 0px 5px black;
 }
 
 nav a:hover{
-    box-shadow: 0px 3px 5px black;
+    box-shadow: var(--accent) 0px 0px 10px;
 }
 
 nav a:active{
-    box-shadow: 0px 1px 3px black;
+    box-shadow: var(--accent) 0px 1px 3px;
 }
 
 h1,h2,h3{
+    font-family: "Black Ops One", system-ui;
     text-align: center;
 }
 
 .subhead{
-    font-size: 30px;
-    color:rgba(0, 0, 0, 0.609)
+    font-size: 24px;
+    color: var(--textcolor);
 }
 
 .max{
     max-width: 60dvw;
+}
+
+p{
+    font-family: roboto, system-ui;
+    color: var(--textcolor);
+    font-size: 18px;
+    text-align: center;
 }
