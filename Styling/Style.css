@@ -93,3 +93,12 @@ p{
   margin-left: auto;
   margin-right: auto;
  }
+
+
+ .toBig {
+    max-height: 400px;
+ }
+
+ .waytobig{
+    max-width: 55dvw;
+ }
