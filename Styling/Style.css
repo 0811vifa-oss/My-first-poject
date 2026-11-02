@@ -9,14 +9,14 @@
     --textcolor: #35FF69;
     --accent: #18DEC3; 
 }
+
 body {
     background-color: var(--bg);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80dvw;
-    Margin: 0 auto;
+    margin: 0 auto;
 }
 
 
@@ -25,6 +25,7 @@ header {
      font-family: "Black Ops One", system-ui;
   font-weight: 400;
   font-style: normal;
+  width: 100%;
 }
 
 nav {
@@ -65,7 +66,6 @@ main {
 
 main > section {
     width: 100%;
-    
 }
 
 .index section img {
@@ -73,13 +73,14 @@ main > section {
     max-width: 100%;
 }
 
-p.max{
-    text-align: center;
-    font-family: roboto, system-ui;
+.max{
+   
     color: var(--textcolor);
     font-size: 18px;
+    width: 80%;
     text-align: center;
-    width: 100%;
+    margin-inline: auto;
+     font-family: roboto, system-ui;
 }
 
 .row{
@@ -114,3 +115,10 @@ p.max{
  .waytobig{
     max-width: 55dvw;
  }
+.hela-rad{
+    background-color: #FF4500;
+    width: 100%;
+    Margin-top: 0px;
+    padding: 20px 0;
+}
+
