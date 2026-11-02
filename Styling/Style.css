@@ -113,7 +113,7 @@ main > section {
  }
 
  .waytobig{
-    max-width: 55dvw;
+    max-width: min(55dvw, 100%);
  }
 .hela-rad{
     background-color: #FF4500;
@@ -122,3 +122,15 @@ main > section {
     padding: 20px 0;
 }
 
+.nya-spel section *{
+    max-width: 100%;
+}
+
+.nya-spel section img {
+    max-width: 100%;
+}
+
+.deadlocktobig{
+    max-width: 100%;
+    max-height: 400px;
+}
